@@ -11326,4 +11326,24 @@ div[style*="#ffc800"] {
   background-color: #ffffff !important;
   color: #000 !important;
 }
+/* Paksa semua elemen dengan background #ffc800 atau sejenis jadi coklat */
+*[style*="background-color:#ffc800"],
+*[style*="background-color: #ffc800"],
+*[style*="background:#ffc800"],
+*[style*="background: #ffc800"] {
+  background-color: #594236 !important;
+  color: #fff !important;
+}
+
+/* Override warna kuning jika ditentukan dari class khusus */
+.bg-yellow, .section-yellow, .highlight-yellow {
+  background-color: #594236 !important;
+  color: #fff !important;
+}
+
+/* Fallback: paksa section paling atas yang warnanya kuning */
+section:nth-of-type(1) {
+  background-color: #594236 !important;
+  color: #fff !important;
+}
 
