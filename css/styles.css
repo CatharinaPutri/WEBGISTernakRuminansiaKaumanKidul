@@ -11317,12 +11317,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 :root, [data-bs-theme="light"] {
   --bs-warning: #594236;
   --bs-warning-rgb: 89, 66, 54;
-}
+
 .bg-warning {
   --bs-bg-opacity: 1;
   background-color: rgba(89, 66, 54, var(--bs-bg-opacity)) !important;
-  color: #fff !important;
+  color: #fff !important; /* opsional: agar teks tetap kontras */
 }
+
+/* Jika warna kuning digunakan langsung sebagai hex, kita override juga */
+/*[class*="bg-"] {
+  background-color: #594236 !important;
+} */
+
 div[style*="#ffc800"] {
   background-color: #594236 !important;
 }
