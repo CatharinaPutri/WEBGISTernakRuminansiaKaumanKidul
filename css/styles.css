@@ -11317,9 +11317,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 :root, [data-bs-theme="light"] {
-  --bs-warning: #20c997;
-  --bs-warning-rgb: 32, 201, 151;
-}
+  --bs-warning: #594236;
+  --bs-warning-rgb: 89, 66, 54;
 
 .bg-warning {
   --bs-bg-opacity: 1;
