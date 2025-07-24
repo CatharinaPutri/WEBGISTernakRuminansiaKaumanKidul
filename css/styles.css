@@ -11308,16 +11308,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-/* Paksa SEMUA elemen yang warnanya kuning terang */
-* {
-  background-color: transparent !important;
-}
-
-/* Spesifik ke warna kuning */
-*[style*="#ffc800"],
+/* Ganti khusus bagian yang warnanya kuning */
+.bg-warning,
 section[style*="#ffc800"],
 div[style*="#ffc800"],
-.bg-warning {
+*[style*="background-color:#ffc800"],
+*[style*="background-color: #ffc800"] {
   background-color: #594236 !important;
   color: #fff !important;
 }
