@@ -11309,20 +11309,21 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
-.footer {
-  text-align: center;
-  font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-:root, [data-bs-theme="light"] {
-  --bs-warning: #594236;
-  --bs-warning-rgb: 89, 66, 54;
-
+/* Override warna kuning spesifik jadi coklat */
 .bg-warning {
-  --bs-bg-opacity: 1;
-  background-color: rgba(89, 66, 54, var(--bs-bg-opacity)) !important;
-  color: #fff !important; /* opsional: agar teks tetap kontras */
+  background-color: #594236 !important;
+  color: #fff !important;
 }
+
+/* Tangani elemen inline style pakai #ffc800 */
 div[style*="#ffc800"] {
   background-color: #594236 !important;
+  color: #fff !important;
 }
+
+/* Pastikan bagian putih tetap putih */
+.bg-light, .bg-white {
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
