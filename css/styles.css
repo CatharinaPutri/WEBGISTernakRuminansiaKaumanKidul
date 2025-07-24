@@ -11323,15 +11323,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: rgba(32, 201, 151, var(--bs-bg-opacity)) !important;
+  background-color: rgba(89, 66, 54, var(--bs-bg-opacity)) !important;
   color: #fff !important; /* opsional: agar teks tetap kontras */
 }
 
 /* Jika warna kuning digunakan langsung sebagai hex, kita override juga */
 [class*="bg-"] {
-  background-color: #20c997 !important;
+  background-color: #594236 !important;
 }
 
 div[style*="#ffc800"] {
-  background-color: #20c997 !important;
+  background-color: #594236 !important;
 }
