@@ -11325,10 +11325,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /* Jika warna kuning digunakan langsung sebagai hex, kita override juga */
-/*[class*="bg-"] {
+[class*="bg-"] {
   background-color: #594236 !important;
-} */
-
+} 
 div[style*="#ffc800"] {
   background-color: #594236 !important;
 }
