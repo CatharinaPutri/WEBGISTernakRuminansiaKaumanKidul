@@ -11308,42 +11308,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
+/* Paksa SEMUA elemen yang warnanya kuning terang */
+* {
+  background-color: transparent !important;
+}
 
-/* Override warna kuning spesifik jadi coklat */
+/* Spesifik ke warna kuning */
+*[style*="#ffc800"],
+section[style*="#ffc800"],
+div[style*="#ffc800"],
 .bg-warning {
   background-color: #594236 !important;
   color: #fff !important;
 }
-
-/* Tangani elemen inline style pakai #ffc800 */
-div[style*="#ffc800"] {
-  background-color: #594236 !important;
-  color: #fff !important;
-}
-
-/* Pastikan bagian putih tetap putih */
-.bg-light, .bg-white {
-  background-color: #ffffff !important;
-  color: #000 !important;
-}
-/* Paksa semua elemen dengan background #ffc800 atau sejenis jadi coklat */
-*[style*="background-color:#ffc800"],
-*[style*="background-color: #ffc800"],
-*[style*="background:#ffc800"],
-*[style*="background: #ffc800"] {
-  background-color: #594236 !important;
-  color: #fff !important;
-}
-
-/* Override warna kuning jika ditentukan dari class khusus */
-.bg-yellow, .section-yellow, .highlight-yellow {
-  background-color: #594236 !important;
-  color: #fff !important;
-}
-
-/* Fallback: paksa section paling atas yang warnanya kuning */
-section:nth-of-type(1) {
-  background-color: #594236 !important;
-  color: #fff !important;
-}
-
